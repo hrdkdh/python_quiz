@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1253565427A2C028005AA06F /* python_quizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253565327A2C028005AA06F /* python_quizApp.swift */; };
+		1253565627A2C028005AA06F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253565527A2C028005AA06F /* ContentView.swift */; };
+		1253565827A2C029005AA06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253565727A2C029005AA06F /* Assets.xcassets */; };
+		1253565B27A2C029005AA06F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253565A27A2C029005AA06F /* Preview Assets.xcassets */; };
+		1253566627A2C029005AA06F /* python_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253566527A2C029005AA06F /* python_quizTests.swift */; };
+		1253567027A2C029005AA06F /* python_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253566F27A2C029005AA06F /* python_quizUITests.swift */; };
+		1253567227A2C029005AA06F /* python_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1253566227A2C029005AA06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1253564827A2C028005AA06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1253564F27A2C028005AA06F;
+			remoteInfo = python_quiz;
+		};
+		1253566C27A2C029005AA06F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1253564827A2C028005AA06F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1253564F27A2C028005AA06F;
+			remoteInfo = python_quiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1253565027A2C028005AA06F /* python_quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = python_quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253565327A2C028005AA06F /* python_quizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizApp.swift; sourceTree = "<group>"; };
+		1253565527A2C028005AA06F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1253565727A2C029005AA06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1253565A27A2C029005AA06F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1253565C27A2C029005AA06F /* python_quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = python_quiz.entitlements; sourceTree = "<group>"; };
+		1253566127A2C029005AA06F /* python_quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253566527A2C029005AA06F /* python_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizTests.swift; sourceTree = "<group>"; };
+		1253566B27A2C029005AA06F /* python_quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253566F27A2C029005AA06F /* python_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITests.swift; sourceTree = "<group>"; };
+		1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1253564D27A2C028005AA06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253565E27A2C029005AA06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253566827A2C029005AA06F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1253564727A2C028005AA06F = {
+			isa = PBXGroup;
+			children = (
+				1253565227A2C028005AA06F /* python_quiz */,
+				1253566427A2C029005AA06F /* python_quizTests */,
+				1253566E27A2C029005AA06F /* python_quizUITests */,
+				1253565127A2C028005AA06F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1253565127A2C028005AA06F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1253565027A2C028005AA06F /* python_quiz.app */,
+				1253566127A2C029005AA06F /* python_quizTests.xctest */,
+				1253566B27A2C029005AA06F /* python_quizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1253565227A2C028005AA06F /* python_quiz */ = {
+			isa = PBXGroup;
+			children = (
+				1253565327A2C028005AA06F /* python_quizApp.swift */,
+				1253565527A2C028005AA06F /* ContentView.swift */,
+				1253565727A2C029005AA06F /* Assets.xcassets */,
+				1253565C27A2C029005AA06F /* python_quiz.entitlements */,
+				1253565927A2C029005AA06F /* Preview Content */,
+			);
+			path = python_quiz;
+			sourceTree = "<group>";
+		};
+		1253565927A2C029005AA06F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1253565A27A2C029005AA06F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1253566427A2C029005AA06F /* python_quizTests */ = {
+			isa = PBXGroup;
+			children = (
+				1253566527A2C029005AA06F /* python_quizTests.swift */,
+			);
+			path = python_quizTests;
+			sourceTree = "<group>";
+		};
+		1253566E27A2C029005AA06F /* python_quizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1253566F27A2C029005AA06F /* python_quizUITests.swift */,
+				1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */,
+			);
+			path = python_quizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1253564F27A2C028005AA06F /* python_quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253567527A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */;
+			buildPhases = (
+				1253564C27A2C028005AA06F /* Sources */,
+				1253564D27A2C028005AA06F /* Frameworks */,
+				1253564E27A2C028005AA06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = python_quiz;
+			productName = python_quiz;
+			productReference = 1253565027A2C028005AA06F /* python_quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1253566027A2C029005AA06F /* python_quizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253567827A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */;
+			buildPhases = (
+				1253565D27A2C029005AA06F /* Sources */,
+				1253565E27A2C029005AA06F /* Frameworks */,
+				1253565F27A2C029005AA06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1253566327A2C029005AA06F /* PBXTargetDependency */,
+			);
+			name = python_quizTests;
+			productName = python_quizTests;
+			productReference = 1253566127A2C029005AA06F /* python_quizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1253566A27A2C029005AA06F /* python_quizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1253567B27A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */;
+			buildPhases = (
+				1253566727A2C029005AA06F /* Sources */,
+				1253566827A2C029005AA06F /* Frameworks */,
+				1253566927A2C029005AA06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1253566D27A2C029005AA06F /* PBXTargetDependency */,
+			);
+			name = python_quizUITests;
+			productName = python_quizUITests;
+			productReference = 1253566B27A2C029005AA06F /* python_quizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1253564827A2C028005AA06F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1253564F27A2C028005AA06F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					1253566027A2C029005AA06F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1253564F27A2C028005AA06F;
+					};
+					1253566A27A2C029005AA06F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 1253564F27A2C028005AA06F;
+					};
+				};
+			};
+			buildConfigurationList = 1253564B27A2C028005AA06F /* Build configuration list for PBXProject "python_quiz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1253564727A2C028005AA06F;
+			productRefGroup = 1253565127A2C028005AA06F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1253564F27A2C028005AA06F /* python_quiz */,
+				1253566027A2C029005AA06F /* python_quizTests */,
+				1253566A27A2C029005AA06F /* python_quizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1253564E27A2C028005AA06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253565B27A2C029005AA06F /* Preview Assets.xcassets in Resources */,
+				1253565827A2C029005AA06F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253565F27A2C029005AA06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253566927A2C029005AA06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1253564C27A2C028005AA06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253565627A2C028005AA06F /* ContentView.swift in Sources */,
+				1253565427A2C028005AA06F /* python_quizApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253565D27A2C029005AA06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253566627A2C029005AA06F /* python_quizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1253566727A2C029005AA06F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1253567027A2C029005AA06F /* python_quizUITests.swift in Sources */,
+				1253567227A2C029005AA06F /* python_quizUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1253566327A2C029005AA06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1253564F27A2C028005AA06F /* python_quiz */;
+			targetProxy = 1253566227A2C029005AA06F /* PBXContainerItemProxy */;
+		};
+		1253566D27A2C029005AA06F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1253564F27A2C028005AA06F /* python_quiz */;
+			targetProxy = 1253566C27A2C029005AA06F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1253567327A2C029005AA06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1253567427A2C029005AA06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1253567627A2C029005AA06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = python_quiz/python_quiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"python_quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1253567727A2C029005AA06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = python_quiz/python_quiz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"python_quiz/Preview Content\"";
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1253567927A2C029005AA06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/Contents/MacOS/python_quiz";
+			};
+			name = Debug;
+		};
+		1253567A27A2C029005AA06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/Contents/MacOS/python_quiz";
+			};
+			name = Release;
+		};
+		1253567C27A2C029005AA06F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = python_quiz;
+			};
+			name = Debug;
+		};
+		1253567D27A2C029005AA06F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = python_quiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1253564B27A2C028005AA06F /* Build configuration list for PBXProject "python_quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253567327A2C029005AA06F /* Debug */,
+				1253567427A2C029005AA06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253567527A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253567627A2C029005AA06F /* Debug */,
+				1253567727A2C029005AA06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253567827A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253567927A2C029005AA06F /* Debug */,
+				1253567A27A2C029005AA06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1253567B27A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1253567C27A2C029005AA06F /* Debug */,
+				1253567D27A2C029005AA06F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1253564827A2C028005AA06F /* Project object */;
+}
