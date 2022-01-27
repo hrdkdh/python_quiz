@@ -7,62 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1253565427A2C028005AA06F /* python_quizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253565327A2C028005AA06F /* python_quizApp.swift */; };
-		1253565627A2C028005AA06F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253565527A2C028005AA06F /* ContentView.swift */; };
-		1253565827A2C029005AA06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253565727A2C029005AA06F /* Assets.xcassets */; };
-		1253565B27A2C029005AA06F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253565A27A2C029005AA06F /* Preview Assets.xcassets */; };
-		1253566627A2C029005AA06F /* python_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253566527A2C029005AA06F /* python_quizTests.swift */; };
-		1253567027A2C029005AA06F /* python_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253566F27A2C029005AA06F /* python_quizUITests.swift */; };
-		1253567227A2C029005AA06F /* python_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */; };
+		1253568B27A2C0C8005AA06F /* python_quizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253568A27A2C0C8005AA06F /* python_quizApp.swift */; };
+		1253568D27A2C0C8005AA06F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253568C27A2C0C8005AA06F /* ContentView.swift */; };
+		1253568F27A2C0C8005AA06F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253568E27A2C0C8005AA06F /* Assets.xcassets */; };
+		1253569227A2C0C8005AA06F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1253569127A2C0C8005AA06F /* Preview Assets.xcassets */; };
+		1253569C27A2C0C8005AA06F /* python_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253569B27A2C0C8005AA06F /* python_quizTests.swift */; };
+		125356A627A2C0C8005AA06F /* python_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125356A527A2C0C8005AA06F /* python_quizUITests.swift */; };
+		125356A827A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125356A727A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1253566227A2C029005AA06F /* PBXContainerItemProxy */ = {
+		1253569827A2C0C8005AA06F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1253564827A2C028005AA06F /* Project object */;
+			containerPortal = 1253567F27A2C0C8005AA06F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1253564F27A2C028005AA06F;
+			remoteGlobalIDString = 1253568627A2C0C8005AA06F;
 			remoteInfo = python_quiz;
 		};
-		1253566C27A2C029005AA06F /* PBXContainerItemProxy */ = {
+		125356A227A2C0C8005AA06F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1253564827A2C028005AA06F /* Project object */;
+			containerPortal = 1253567F27A2C0C8005AA06F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1253564F27A2C028005AA06F;
+			remoteGlobalIDString = 1253568627A2C0C8005AA06F;
 			remoteInfo = python_quiz;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1253565027A2C028005AA06F /* python_quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = python_quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1253565327A2C028005AA06F /* python_quizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizApp.swift; sourceTree = "<group>"; };
-		1253565527A2C028005AA06F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1253565727A2C029005AA06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1253565A27A2C029005AA06F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1253565C27A2C029005AA06F /* python_quiz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = python_quiz.entitlements; sourceTree = "<group>"; };
-		1253566127A2C029005AA06F /* python_quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1253566527A2C029005AA06F /* python_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizTests.swift; sourceTree = "<group>"; };
-		1253566B27A2C029005AA06F /* python_quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1253566F27A2C029005AA06F /* python_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITests.swift; sourceTree = "<group>"; };
-		1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1253568727A2C0C8005AA06F /* python_quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = python_quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253568A27A2C0C8005AA06F /* python_quizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizApp.swift; sourceTree = "<group>"; };
+		1253568C27A2C0C8005AA06F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1253568E27A2C0C8005AA06F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1253569127A2C0C8005AA06F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1253569727A2C0C8005AA06F /* python_quizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1253569B27A2C0C8005AA06F /* python_quizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizTests.swift; sourceTree = "<group>"; };
+		125356A127A2C0C8005AA06F /* python_quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		125356A527A2C0C8005AA06F /* python_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITests.swift; sourceTree = "<group>"; };
+		125356A727A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1253564D27A2C028005AA06F /* Frameworks */ = {
+		1253568427A2C0C8005AA06F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253565E27A2C029005AA06F /* Frameworks */ = {
+		1253569427A2C0C8005AA06F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253566827A2C029005AA06F /* Frameworks */ = {
+		1253569E27A2C0C8005AA06F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,59 +71,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1253564727A2C028005AA06F = {
+		1253567E27A2C0C8005AA06F = {
 			isa = PBXGroup;
 			children = (
-				1253565227A2C028005AA06F /* python_quiz */,
-				1253566427A2C029005AA06F /* python_quizTests */,
-				1253566E27A2C029005AA06F /* python_quizUITests */,
-				1253565127A2C028005AA06F /* Products */,
+				1253568927A2C0C8005AA06F /* python_quiz */,
+				1253569A27A2C0C8005AA06F /* python_quizTests */,
+				125356A427A2C0C8005AA06F /* python_quizUITests */,
+				1253568827A2C0C8005AA06F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1253565127A2C028005AA06F /* Products */ = {
+		1253568827A2C0C8005AA06F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1253565027A2C028005AA06F /* python_quiz.app */,
-				1253566127A2C029005AA06F /* python_quizTests.xctest */,
-				1253566B27A2C029005AA06F /* python_quizUITests.xctest */,
+				1253568727A2C0C8005AA06F /* python_quiz.app */,
+				1253569727A2C0C8005AA06F /* python_quizTests.xctest */,
+				125356A127A2C0C8005AA06F /* python_quizUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1253565227A2C028005AA06F /* python_quiz */ = {
+		1253568927A2C0C8005AA06F /* python_quiz */ = {
 			isa = PBXGroup;
 			children = (
-				1253565327A2C028005AA06F /* python_quizApp.swift */,
-				1253565527A2C028005AA06F /* ContentView.swift */,
-				1253565727A2C029005AA06F /* Assets.xcassets */,
-				1253565C27A2C029005AA06F /* python_quiz.entitlements */,
-				1253565927A2C029005AA06F /* Preview Content */,
+				1253568A27A2C0C8005AA06F /* python_quizApp.swift */,
+				1253568C27A2C0C8005AA06F /* ContentView.swift */,
+				1253568E27A2C0C8005AA06F /* Assets.xcassets */,
+				1253569027A2C0C8005AA06F /* Preview Content */,
 			);
 			path = python_quiz;
 			sourceTree = "<group>";
 		};
-		1253565927A2C029005AA06F /* Preview Content */ = {
+		1253569027A2C0C8005AA06F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1253565A27A2C029005AA06F /* Preview Assets.xcassets */,
+				1253569127A2C0C8005AA06F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1253566427A2C029005AA06F /* python_quizTests */ = {
+		1253569A27A2C0C8005AA06F /* python_quizTests */ = {
 			isa = PBXGroup;
 			children = (
-				1253566527A2C029005AA06F /* python_quizTests.swift */,
+				1253569B27A2C0C8005AA06F /* python_quizTests.swift */,
 			);
 			path = python_quizTests;
 			sourceTree = "<group>";
 		};
-		1253566E27A2C029005AA06F /* python_quizUITests */ = {
+		125356A427A2C0C8005AA06F /* python_quizUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1253566F27A2C029005AA06F /* python_quizUITests.swift */,
-				1253567127A2C029005AA06F /* python_quizUITestsLaunchTests.swift */,
+				125356A527A2C0C8005AA06F /* python_quizUITests.swift */,
+				125356A727A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift */,
 			);
 			path = python_quizUITests;
 			sourceTree = "<group>";
@@ -132,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1253564F27A2C028005AA06F /* python_quiz */ = {
+		1253568627A2C0C8005AA06F /* python_quiz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1253567527A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */;
+			buildConfigurationList = 125356AB27A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */;
 			buildPhases = (
-				1253564C27A2C028005AA06F /* Sources */,
-				1253564D27A2C028005AA06F /* Frameworks */,
-				1253564E27A2C028005AA06F /* Resources */,
+				1253568327A2C0C8005AA06F /* Sources */,
+				1253568427A2C0C8005AA06F /* Frameworks */,
+				1253568527A2C0C8005AA06F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -146,69 +144,69 @@
 			);
 			name = python_quiz;
 			productName = python_quiz;
-			productReference = 1253565027A2C028005AA06F /* python_quiz.app */;
+			productReference = 1253568727A2C0C8005AA06F /* python_quiz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1253566027A2C029005AA06F /* python_quizTests */ = {
+		1253569627A2C0C8005AA06F /* python_quizTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1253567827A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */;
+			buildConfigurationList = 125356AE27A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */;
 			buildPhases = (
-				1253565D27A2C029005AA06F /* Sources */,
-				1253565E27A2C029005AA06F /* Frameworks */,
-				1253565F27A2C029005AA06F /* Resources */,
+				1253569327A2C0C8005AA06F /* Sources */,
+				1253569427A2C0C8005AA06F /* Frameworks */,
+				1253569527A2C0C8005AA06F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1253566327A2C029005AA06F /* PBXTargetDependency */,
+				1253569927A2C0C8005AA06F /* PBXTargetDependency */,
 			);
 			name = python_quizTests;
 			productName = python_quizTests;
-			productReference = 1253566127A2C029005AA06F /* python_quizTests.xctest */;
+			productReference = 1253569727A2C0C8005AA06F /* python_quizTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1253566A27A2C029005AA06F /* python_quizUITests */ = {
+		125356A027A2C0C8005AA06F /* python_quizUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1253567B27A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */;
+			buildConfigurationList = 125356B127A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */;
 			buildPhases = (
-				1253566727A2C029005AA06F /* Sources */,
-				1253566827A2C029005AA06F /* Frameworks */,
-				1253566927A2C029005AA06F /* Resources */,
+				1253569D27A2C0C8005AA06F /* Sources */,
+				1253569E27A2C0C8005AA06F /* Frameworks */,
+				1253569F27A2C0C8005AA06F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1253566D27A2C029005AA06F /* PBXTargetDependency */,
+				125356A327A2C0C8005AA06F /* PBXTargetDependency */,
 			);
 			name = python_quizUITests;
 			productName = python_quizUITests;
-			productReference = 1253566B27A2C029005AA06F /* python_quizUITests.xctest */;
+			productReference = 125356A127A2C0C8005AA06F /* python_quizUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1253564827A2C028005AA06F /* Project object */ = {
+		1253567F27A2C0C8005AA06F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					1253564F27A2C028005AA06F = {
+					1253568627A2C0C8005AA06F = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					1253566027A2C029005AA06F = {
+					1253569627A2C0C8005AA06F = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 1253564F27A2C028005AA06F;
+						TestTargetID = 1253568627A2C0C8005AA06F;
 					};
-					1253566A27A2C029005AA06F = {
+					125356A027A2C0C8005AA06F = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 1253564F27A2C028005AA06F;
+						TestTargetID = 1253568627A2C0C8005AA06F;
 					};
 				};
 			};
-			buildConfigurationList = 1253564B27A2C028005AA06F /* Build configuration list for PBXProject "python_quiz" */;
+			buildConfigurationList = 1253568227A2C0C8005AA06F /* Build configuration list for PBXProject "python_quiz" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 1253564727A2C028005AA06F;
-			productRefGroup = 1253565127A2C028005AA06F /* Products */;
+			mainGroup = 1253567E27A2C0C8005AA06F;
+			productRefGroup = 1253568827A2C0C8005AA06F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1253564F27A2C028005AA06F /* python_quiz */,
-				1253566027A2C029005AA06F /* python_quizTests */,
-				1253566A27A2C029005AA06F /* python_quizUITests */,
+				1253568627A2C0C8005AA06F /* python_quiz */,
+				1253569627A2C0C8005AA06F /* python_quizTests */,
+				125356A027A2C0C8005AA06F /* python_quizUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1253564E27A2C028005AA06F /* Resources */ = {
+		1253568527A2C0C8005AA06F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1253565B27A2C029005AA06F /* Preview Assets.xcassets in Resources */,
-				1253565827A2C029005AA06F /* Assets.xcassets in Resources */,
+				1253569227A2C0C8005AA06F /* Preview Assets.xcassets in Resources */,
+				1253568F27A2C0C8005AA06F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253565F27A2C029005AA06F /* Resources */ = {
+		1253569527A2C0C8005AA06F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253566927A2C029005AA06F /* Resources */ = {
+		1253569F27A2C0C8005AA06F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1253564C27A2C028005AA06F /* Sources */ = {
+		1253568327A2C0C8005AA06F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1253565627A2C028005AA06F /* ContentView.swift in Sources */,
-				1253565427A2C028005AA06F /* python_quizApp.swift in Sources */,
+				1253568D27A2C0C8005AA06F /* ContentView.swift in Sources */,
+				1253568B27A2C0C8005AA06F /* python_quizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253565D27A2C029005AA06F /* Sources */ = {
+		1253569327A2C0C8005AA06F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1253566627A2C029005AA06F /* python_quizTests.swift in Sources */,
+				1253569C27A2C0C8005AA06F /* python_quizTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1253566727A2C029005AA06F /* Sources */ = {
+		1253569D27A2C0C8005AA06F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1253567027A2C029005AA06F /* python_quizUITests.swift in Sources */,
-				1253567227A2C029005AA06F /* python_quizUITestsLaunchTests.swift in Sources */,
+				125356A627A2C0C8005AA06F /* python_quizUITests.swift in Sources */,
+				125356A827A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1253566327A2C029005AA06F /* PBXTargetDependency */ = {
+		1253569927A2C0C8005AA06F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1253564F27A2C028005AA06F /* python_quiz */;
-			targetProxy = 1253566227A2C029005AA06F /* PBXContainerItemProxy */;
+			target = 1253568627A2C0C8005AA06F /* python_quiz */;
+			targetProxy = 1253569827A2C0C8005AA06F /* PBXContainerItemProxy */;
 		};
-		1253566D27A2C029005AA06F /* PBXTargetDependency */ = {
+		125356A327A2C0C8005AA06F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1253564F27A2C028005AA06F /* python_quiz */;
-			targetProxy = 1253566C27A2C029005AA06F /* PBXContainerItemProxy */;
+			target = 1253568627A2C0C8005AA06F /* python_quiz */;
+			targetProxy = 125356A227A2C0C8005AA06F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1253567327A2C029005AA06F /* Debug */ = {
+		125356A927A2C0C8005AA06F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -348,17 +346,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		1253567427A2C029005AA06F /* Release */ = {
+		125356AA27A2C0C8005AA06F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -403,70 +401,75 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		1253567627A2C029005AA06F /* Debug */ = {
+		125356AC27A2C0C8005AA06F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = python_quiz/python_quiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"python_quiz/Preview Content\"";
 				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1253567727A2C029005AA06F /* Release */ = {
+		125356AD27A2C0C8005AA06F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = python_quiz/python_quiz.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"python_quiz/Preview Content\"";
 				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quiz";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		1253567927A2C029005AA06F /* Debug */ = {
+		125356AF27A2C0C8005AA06F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,17 +478,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/Contents/MacOS/python_quiz";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/python_quiz";
 			};
 			name = Debug;
 		};
-		1253567A27A2C029005AA06F /* Release */ = {
+		125356B027A2C0C8005AA06F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,17 +498,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J65ZAZ2PMQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "hrdkdh.python-quizTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/Contents/MacOS/python_quiz";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/python_quiz.app/python_quiz";
 			};
 			name = Release;
 		};
-		1253567C27A2C029005AA06F /* Debug */ = {
+		125356B227A2C0C8005AA06F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -517,11 +522,12 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = python_quiz;
 			};
 			name = Debug;
 		};
-		1253567D27A2C029005AA06F /* Release */ = {
+		125356B327A2C0C8005AA06F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -534,6 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = python_quiz;
 			};
 			name = Release;
@@ -541,43 +548,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1253564B27A2C028005AA06F /* Build configuration list for PBXProject "python_quiz" */ = {
+		1253568227A2C0C8005AA06F /* Build configuration list for PBXProject "python_quiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1253567327A2C029005AA06F /* Debug */,
-				1253567427A2C029005AA06F /* Release */,
+				125356A927A2C0C8005AA06F /* Debug */,
+				125356AA27A2C0C8005AA06F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1253567527A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */ = {
+		125356AB27A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quiz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1253567627A2C029005AA06F /* Debug */,
-				1253567727A2C029005AA06F /* Release */,
+				125356AC27A2C0C8005AA06F /* Debug */,
+				125356AD27A2C0C8005AA06F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1253567827A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */ = {
+		125356AE27A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quizTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1253567927A2C029005AA06F /* Debug */,
-				1253567A27A2C029005AA06F /* Release */,
+				125356AF27A2C0C8005AA06F /* Debug */,
+				125356B027A2C0C8005AA06F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1253567B27A2C029005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */ = {
+		125356B127A2C0C8005AA06F /* Build configuration list for PBXNativeTarget "python_quizUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1253567C27A2C029005AA06F /* Debug */,
-				1253567D27A2C029005AA06F /* Release */,
+				125356B227A2C0C8005AA06F /* Debug */,
+				125356B327A2C0C8005AA06F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1253564827A2C028005AA06F /* Project object */;
+	rootObject = 1253567F27A2C0C8005AA06F /* Project object */;
 }
