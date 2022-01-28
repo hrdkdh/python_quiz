@@ -7,10 +7,16 @@
 
 import SwiftUI
 
+let splash_text:String = "안녕?"
+//let splash_image:Image =
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text(splash_text)
+            .fontWeight(.bold)
+            .foregroundColor(Color.orange)
             .padding()
+            .font(.title)
     }
 }
 

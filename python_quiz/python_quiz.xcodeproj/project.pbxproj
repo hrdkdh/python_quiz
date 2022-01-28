@@ -14,6 +14,7 @@
 		1253569C27A2C0C8005AA06F /* python_quizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1253569B27A2C0C8005AA06F /* python_quizTests.swift */; };
 		125356A627A2C0C8005AA06F /* python_quizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125356A527A2C0C8005AA06F /* python_quizUITests.swift */; };
 		125356A827A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125356A727A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift */; };
+		125356B527A2C317005AA06F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 125356B427A2C317005AA06F /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		125356A127A2C0C8005AA06F /* python_quizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = python_quizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		125356A527A2C0C8005AA06F /* python_quizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITests.swift; sourceTree = "<group>"; };
 		125356A727A2C0C8005AA06F /* python_quizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = python_quizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		125356B427A2C317005AA06F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		1253568927A2C0C8005AA06F /* python_quiz */ = {
 			isa = PBXGroup;
 			children = (
+				125356B427A2C317005AA06F /* Images */,
 				1253568A27A2C0C8005AA06F /* python_quizApp.swift */,
 				1253568C27A2C0C8005AA06F /* ContentView.swift */,
 				1253568E27A2C0C8005AA06F /* Assets.xcassets */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1253569227A2C0C8005AA06F /* Preview Assets.xcassets in Resources */,
+				125356B527A2C317005AA06F /* Images in Resources */,
 				1253568F27A2C0C8005AA06F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
